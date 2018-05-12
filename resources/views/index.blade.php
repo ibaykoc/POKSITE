@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
-    <title>POKESITE</title>
+    <title>POKEMON SITE</title>
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center" >WELCOME TO POKESITE</h1>
+        <h1 class="text-center" >WELCOME TO POKEMON SITE</h1>
                 @for ($i = 0; $i < count($cards); $i+=3)
                     <div class="row">
                         @if($i < count($cards))         
